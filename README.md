@@ -15,25 +15,6 @@ A simple and elegant employee task tracking system built with **React**. It feat
 
 ---
 
-## 📁 Folder Structure
-
-src/
-├── components/
-│   ├── Auth/
-│   │   └── Login.jsx
-│   ├── Dashboard/
-│   │   ├── AdminDashboard.jsx
-│   │   └── EmployeeDashboard.jsx
-│   └── Task/
-│       └── AllTask.jsx
-├── context/
-│   └── AuthProvider.jsx
-├── utils/
-│   └── localStorage.js
-└── App.jsx
-
----
-
 ## 🛠️ Tech Stack
 
 - **React**
@@ -48,8 +29,8 @@ src/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/employee-management-system.git
-cd employee-management-system
+git clone https://github.com/mazode/reactjs-ems.git
+cd reactjs-ems
 ```
 
 ### 2. Install Dependencies
@@ -70,6 +51,6 @@ npm start
 | Role    | Email          | Password |
 |---------|----------------|----------|
 | Admin   | admin@me.com   | 123      |
-| Employee| Defined in localStorage | Defined manually |
+| Employee| e@e.com | 123 |
 
 ---
